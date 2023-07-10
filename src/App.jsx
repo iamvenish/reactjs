@@ -16,6 +16,18 @@
 // export default App;
 
 import react from "react";
+import reactDom from "react-dom";
 import Header from "./Header";
 import Footer from "./footer";
-import rectDom from "rect-dom";
+import Note from "./Note";
+
+reactDom.render(
+  <div>
+    <Header />
+    <Note />
+    <Footer />
+  </div>,
+  document.getElementById("root")
+);
+
+export default App;
