@@ -18,16 +18,4 @@
 import react from "react";
 import Header from "./Header";
 import Footer from "./footer";
-// import rectDom from "rect-dom";
-import Note from "./Note";
-function App() {
-  return (
-    <div>
-      <Header />
-      <Note />
-      <Footer />
-    </div>
-  );
-}
-
-export default App;
+import rectDom from "rect-dom";
